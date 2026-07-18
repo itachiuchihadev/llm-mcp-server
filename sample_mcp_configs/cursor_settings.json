@@ -1,7 +1,7 @@
 {
   "name": "llm-mcp-server",
   "type": "command",
-  "command": "node \"c:/Users/abhi9/Documents/Work/AI Projects/llm_mcp/dist/index.js\"",
+  "command": "npx -y @abhishekkumar00019/llm-mcp-server",
   "env": {
     "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY",
     "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY",
