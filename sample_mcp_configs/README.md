@@ -9,9 +9,9 @@ This directory contains template configuration files and instructions for connec
 Each configuration can be written in two ways:
 
 ### Option A: Production Setup (Published NPM Package)
-Once you publish the package under `@abhishek-kumar-00019/llm-mcp-server`, clients can run it globally via `npx` without needing the files locally:
+Once you publish the package under `@abhishekkumar00019/llm-mcp-server`, clients can run it globally via `npx` without needing the files locally:
 - **Command**: `npx`
-- **Args**: `["-y", "@abhishek-kumar-00019/llm-mcp-server"]`
+- **Args**: `["-y", "@abhishekkumar00019/llm-mcp-server"]`
 
 ### Option B: Local Development Setup (Direct Exec)
 If you are modifying the code locally, run the server by pointing directly to your compiled build folder:
@@ -52,7 +52,7 @@ Cursor does not currently use a shared JSON configuration file for MCP servers. 
 3. Fill in the parameters:
    - **Name**: `llm-mcp-server`
    - **Type**: `command`
-   - **Command**: `npx -y @abhishek-kumar-00019/llm-mcp-server` (Production) or `node "c:/Users/abhi9/Documents/Work/AI Projects/llm_mcp/dist/index.js"` (Local)
+   - **Command**: `npx -y @abhishekkumar00019/llm-mcp-server` (Production) or `node "c:/Users/abhi9/Documents/Work/AI Projects/llm_mcp/dist/index.js"` (Local)
 4. Use the reference details inside [cursor_settings.json](file:///c:/Users/abhi9/Documents/Work/AI%20Projects/llm_mcp/sample_mcp_configs/cursor_settings.json) to set up your environment credentials.
 
 ---
